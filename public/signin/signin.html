@@ -1,0 +1,44 @@
+<!-- <div class="row">
+  <div class="col-md-4">
+    <span style="color:white;"><center><img width="10%" src="/assets/images/logo.png" /></center></span>
+  </div>
+</div> -->
+<div class="row">
+  <form class="" name="loginForm" novalidate ng-submit="vm.login(loginForm)">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <div class="row">
+        <div class="form-group">
+          <div class="input-group">
+            <span class="glyphicon glyphicon-user"></span>
+            <input type="text" class="form-control" placeholder="Email Address"
+            name="emailAdd"
+            required="true"
+            ng-model="vm.user.emailAddress"/>
+          </div>
+          <p class="help-block" ng-if="loginForm.emailAdd.$error.required && loginForm.$submitted">
+            <i><b>Email Address</b></i> is required.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group">
+          <div class="input-group">
+            <span class="glyphicon glyphicon-user"></span>
+            <input type="password" class="form-control" placeholder="Password"
+            name="password"
+            required="true"
+            ng-model="vm.user.password"/>
+          </div>
+          <p class="help-block" ng-if="loginForm.password.$error.required && loginForm.$submitted">
+            <i><b>Password</b></i> is required.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <button type="submit" class="contact-save-btn">Sign In</button>
+      </div>
+    </div>
+    <div class="col-md-4"></div>
+  </form>
+</div>

@@ -1,0 +1,29 @@
+{
+  "name": "login",
+  "description": "login",
+  "main": "index.js",
+  "authors": [
+    {
+      "name": "Jyotil",
+      "email": "jyotil.r@productivet.com"
+    }
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.5.8",
+    "angular-sweetalert": "angular-h-sweetalert#^1.4.7",
+    "restangular": "^1.5.2",
+    "lodash": "^4.17.2"
+  }
+}
