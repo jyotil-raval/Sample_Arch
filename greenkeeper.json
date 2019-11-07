@@ -1,0 +1,15 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "bower_components/angular-bootstrap/package.json",
+        "bower_components/angular-sweetalert/package.json",
+        "bower_components/angular/package.json",
+        "bower_components/lodash/package.json",
+        "bower_components/restangular/package.json",
+        "bower_components/sweetalert/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
